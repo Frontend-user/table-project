@@ -3,6 +3,12 @@
     <div class="user-view__wrapper">
       TESTTTTTTTTTTTTTTTTTTTTESTTTTTTTTTTTTTTTTTTTTESTTTTTTTTTTTTTTTTTTTTESTTTTTTTTTTTTTTTTTTT
       TESTTTTTTTTTTTTTTTTTTTTESTTTTTTTTTTTTTTTTTTTTESTTTTTTTTTTTTTTTTTTT
+     npm run build
+      cd dist
+      git init
+      git add -A
+      git commit -m 'ss'
+      git push -f git@github.com:Frontend-user/table-project.git master:gh-pages
 
       <ui-search
         v-model="filters.searchText"
