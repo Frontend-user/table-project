@@ -1,6 +1,9 @@
 <template>
   <div class="user-view">
-    <div class="user-view__wrapper">TESTTTTTTTTTTTTTTTTTTT
+    <div class="user-view__wrapper">
+      TESTTTTTTTTTTTTTTTTTTTTESTTTTTTTTTTTTTTTTTTTTESTTTTTTTTTTTTTTTTTTTTESTTTTTTTTTTTTTTTTTTT
+      TESTTTTTTTTTTTTTTTTTTTTESTTTTTTTTTTTTTTTTTTTTESTTTTTTTTTTTTTTTTTTT
+
       <ui-search
         v-model="filters.searchText"
         @get-items-by-search-text="getUsersBySearchText"
